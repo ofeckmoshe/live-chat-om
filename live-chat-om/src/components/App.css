@@ -51,3 +51,27 @@ body,
 }
 
 
+/* ColorPanel.js */
+
+.color__container {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 35px;
+    border-radius: 3px;
+}
+
+.color__square{
+    height: 35px;
+    width: 35px;
+
+}
+
+.color__overlay {
+    height: 35px;
+    width: 85px;
+    transform: rotate(225deg);
+}
+
+
+
