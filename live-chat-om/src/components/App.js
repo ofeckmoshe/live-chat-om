@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Responsive } from 'semantic-ui-react';
 import './App.css';
 import { connect } from 'react-redux';
 
@@ -11,7 +11,7 @@ import MetaPanel from './MetaPanel/MetaPanel';
 
 const App = ({ currentUser, currentChannel, isPrivateChannel, userPosts }) => (
   <Grid columns="equal" className="app" style={{background: '#eee'}}>
-
+    
     <ColorPanel />
 
     <SidePanel
