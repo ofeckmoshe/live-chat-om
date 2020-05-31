@@ -39,7 +39,7 @@ class UserPanel extends React.Component {
         const { primaryColor } = this.props;
 
         return (
-            <Grid style={{ background: primaryColor }}>
+            <Grid >
                 <Grid.Column>
                     <Grid.Row style={{ padding: '1.2em', margin: 0}}>
                         {/* main Aoo Header */}

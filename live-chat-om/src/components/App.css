@@ -30,6 +30,10 @@ body,
     z-index: 200;
 }
 
+.emojiPicker {
+    position: absolute;
+}
+
 
 /* Message.js */
 
@@ -72,6 +76,3 @@ body,
     width: 85px;
     transform: rotate(225deg);
 }
-
-
-
